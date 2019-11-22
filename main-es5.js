@@ -20,6 +20,288 @@
             webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
             /***/ 
         }),
+        /***/ "./node_modules/moment/locale sync recursive ^\\.\\/.*$": 
+        /*!**************************************************!*\
+          !*** ./node_modules/moment/locale sync ^\.\/.*$ ***!
+          \**************************************************/
+        /*! no static exports found */
+        /***/ (function (module, exports, __webpack_require__) {
+            var map = {
+                "./af": "./node_modules/moment/locale/af.js",
+                "./af.js": "./node_modules/moment/locale/af.js",
+                "./ar": "./node_modules/moment/locale/ar.js",
+                "./ar-dz": "./node_modules/moment/locale/ar-dz.js",
+                "./ar-dz.js": "./node_modules/moment/locale/ar-dz.js",
+                "./ar-kw": "./node_modules/moment/locale/ar-kw.js",
+                "./ar-kw.js": "./node_modules/moment/locale/ar-kw.js",
+                "./ar-ly": "./node_modules/moment/locale/ar-ly.js",
+                "./ar-ly.js": "./node_modules/moment/locale/ar-ly.js",
+                "./ar-ma": "./node_modules/moment/locale/ar-ma.js",
+                "./ar-ma.js": "./node_modules/moment/locale/ar-ma.js",
+                "./ar-sa": "./node_modules/moment/locale/ar-sa.js",
+                "./ar-sa.js": "./node_modules/moment/locale/ar-sa.js",
+                "./ar-tn": "./node_modules/moment/locale/ar-tn.js",
+                "./ar-tn.js": "./node_modules/moment/locale/ar-tn.js",
+                "./ar.js": "./node_modules/moment/locale/ar.js",
+                "./az": "./node_modules/moment/locale/az.js",
+                "./az.js": "./node_modules/moment/locale/az.js",
+                "./be": "./node_modules/moment/locale/be.js",
+                "./be.js": "./node_modules/moment/locale/be.js",
+                "./bg": "./node_modules/moment/locale/bg.js",
+                "./bg.js": "./node_modules/moment/locale/bg.js",
+                "./bm": "./node_modules/moment/locale/bm.js",
+                "./bm.js": "./node_modules/moment/locale/bm.js",
+                "./bn": "./node_modules/moment/locale/bn.js",
+                "./bn.js": "./node_modules/moment/locale/bn.js",
+                "./bo": "./node_modules/moment/locale/bo.js",
+                "./bo.js": "./node_modules/moment/locale/bo.js",
+                "./br": "./node_modules/moment/locale/br.js",
+                "./br.js": "./node_modules/moment/locale/br.js",
+                "./bs": "./node_modules/moment/locale/bs.js",
+                "./bs.js": "./node_modules/moment/locale/bs.js",
+                "./ca": "./node_modules/moment/locale/ca.js",
+                "./ca.js": "./node_modules/moment/locale/ca.js",
+                "./cs": "./node_modules/moment/locale/cs.js",
+                "./cs.js": "./node_modules/moment/locale/cs.js",
+                "./cv": "./node_modules/moment/locale/cv.js",
+                "./cv.js": "./node_modules/moment/locale/cv.js",
+                "./cy": "./node_modules/moment/locale/cy.js",
+                "./cy.js": "./node_modules/moment/locale/cy.js",
+                "./da": "./node_modules/moment/locale/da.js",
+                "./da.js": "./node_modules/moment/locale/da.js",
+                "./de": "./node_modules/moment/locale/de.js",
+                "./de-at": "./node_modules/moment/locale/de-at.js",
+                "./de-at.js": "./node_modules/moment/locale/de-at.js",
+                "./de-ch": "./node_modules/moment/locale/de-ch.js",
+                "./de-ch.js": "./node_modules/moment/locale/de-ch.js",
+                "./de.js": "./node_modules/moment/locale/de.js",
+                "./dv": "./node_modules/moment/locale/dv.js",
+                "./dv.js": "./node_modules/moment/locale/dv.js",
+                "./el": "./node_modules/moment/locale/el.js",
+                "./el.js": "./node_modules/moment/locale/el.js",
+                "./en-SG": "./node_modules/moment/locale/en-SG.js",
+                "./en-SG.js": "./node_modules/moment/locale/en-SG.js",
+                "./en-au": "./node_modules/moment/locale/en-au.js",
+                "./en-au.js": "./node_modules/moment/locale/en-au.js",
+                "./en-ca": "./node_modules/moment/locale/en-ca.js",
+                "./en-ca.js": "./node_modules/moment/locale/en-ca.js",
+                "./en-gb": "./node_modules/moment/locale/en-gb.js",
+                "./en-gb.js": "./node_modules/moment/locale/en-gb.js",
+                "./en-ie": "./node_modules/moment/locale/en-ie.js",
+                "./en-ie.js": "./node_modules/moment/locale/en-ie.js",
+                "./en-il": "./node_modules/moment/locale/en-il.js",
+                "./en-il.js": "./node_modules/moment/locale/en-il.js",
+                "./en-nz": "./node_modules/moment/locale/en-nz.js",
+                "./en-nz.js": "./node_modules/moment/locale/en-nz.js",
+                "./eo": "./node_modules/moment/locale/eo.js",
+                "./eo.js": "./node_modules/moment/locale/eo.js",
+                "./es": "./node_modules/moment/locale/es.js",
+                "./es-do": "./node_modules/moment/locale/es-do.js",
+                "./es-do.js": "./node_modules/moment/locale/es-do.js",
+                "./es-us": "./node_modules/moment/locale/es-us.js",
+                "./es-us.js": "./node_modules/moment/locale/es-us.js",
+                "./es.js": "./node_modules/moment/locale/es.js",
+                "./et": "./node_modules/moment/locale/et.js",
+                "./et.js": "./node_modules/moment/locale/et.js",
+                "./eu": "./node_modules/moment/locale/eu.js",
+                "./eu.js": "./node_modules/moment/locale/eu.js",
+                "./fa": "./node_modules/moment/locale/fa.js",
+                "./fa.js": "./node_modules/moment/locale/fa.js",
+                "./fi": "./node_modules/moment/locale/fi.js",
+                "./fi.js": "./node_modules/moment/locale/fi.js",
+                "./fo": "./node_modules/moment/locale/fo.js",
+                "./fo.js": "./node_modules/moment/locale/fo.js",
+                "./fr": "./node_modules/moment/locale/fr.js",
+                "./fr-ca": "./node_modules/moment/locale/fr-ca.js",
+                "./fr-ca.js": "./node_modules/moment/locale/fr-ca.js",
+                "./fr-ch": "./node_modules/moment/locale/fr-ch.js",
+                "./fr-ch.js": "./node_modules/moment/locale/fr-ch.js",
+                "./fr.js": "./node_modules/moment/locale/fr.js",
+                "./fy": "./node_modules/moment/locale/fy.js",
+                "./fy.js": "./node_modules/moment/locale/fy.js",
+                "./ga": "./node_modules/moment/locale/ga.js",
+                "./ga.js": "./node_modules/moment/locale/ga.js",
+                "./gd": "./node_modules/moment/locale/gd.js",
+                "./gd.js": "./node_modules/moment/locale/gd.js",
+                "./gl": "./node_modules/moment/locale/gl.js",
+                "./gl.js": "./node_modules/moment/locale/gl.js",
+                "./gom-latn": "./node_modules/moment/locale/gom-latn.js",
+                "./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
+                "./gu": "./node_modules/moment/locale/gu.js",
+                "./gu.js": "./node_modules/moment/locale/gu.js",
+                "./he": "./node_modules/moment/locale/he.js",
+                "./he.js": "./node_modules/moment/locale/he.js",
+                "./hi": "./node_modules/moment/locale/hi.js",
+                "./hi.js": "./node_modules/moment/locale/hi.js",
+                "./hr": "./node_modules/moment/locale/hr.js",
+                "./hr.js": "./node_modules/moment/locale/hr.js",
+                "./hu": "./node_modules/moment/locale/hu.js",
+                "./hu.js": "./node_modules/moment/locale/hu.js",
+                "./hy-am": "./node_modules/moment/locale/hy-am.js",
+                "./hy-am.js": "./node_modules/moment/locale/hy-am.js",
+                "./id": "./node_modules/moment/locale/id.js",
+                "./id.js": "./node_modules/moment/locale/id.js",
+                "./is": "./node_modules/moment/locale/is.js",
+                "./is.js": "./node_modules/moment/locale/is.js",
+                "./it": "./node_modules/moment/locale/it.js",
+                "./it-ch": "./node_modules/moment/locale/it-ch.js",
+                "./it-ch.js": "./node_modules/moment/locale/it-ch.js",
+                "./it.js": "./node_modules/moment/locale/it.js",
+                "./ja": "./node_modules/moment/locale/ja.js",
+                "./ja.js": "./node_modules/moment/locale/ja.js",
+                "./jv": "./node_modules/moment/locale/jv.js",
+                "./jv.js": "./node_modules/moment/locale/jv.js",
+                "./ka": "./node_modules/moment/locale/ka.js",
+                "./ka.js": "./node_modules/moment/locale/ka.js",
+                "./kk": "./node_modules/moment/locale/kk.js",
+                "./kk.js": "./node_modules/moment/locale/kk.js",
+                "./km": "./node_modules/moment/locale/km.js",
+                "./km.js": "./node_modules/moment/locale/km.js",
+                "./kn": "./node_modules/moment/locale/kn.js",
+                "./kn.js": "./node_modules/moment/locale/kn.js",
+                "./ko": "./node_modules/moment/locale/ko.js",
+                "./ko.js": "./node_modules/moment/locale/ko.js",
+                "./ku": "./node_modules/moment/locale/ku.js",
+                "./ku.js": "./node_modules/moment/locale/ku.js",
+                "./ky": "./node_modules/moment/locale/ky.js",
+                "./ky.js": "./node_modules/moment/locale/ky.js",
+                "./lb": "./node_modules/moment/locale/lb.js",
+                "./lb.js": "./node_modules/moment/locale/lb.js",
+                "./lo": "./node_modules/moment/locale/lo.js",
+                "./lo.js": "./node_modules/moment/locale/lo.js",
+                "./lt": "./node_modules/moment/locale/lt.js",
+                "./lt.js": "./node_modules/moment/locale/lt.js",
+                "./lv": "./node_modules/moment/locale/lv.js",
+                "./lv.js": "./node_modules/moment/locale/lv.js",
+                "./me": "./node_modules/moment/locale/me.js",
+                "./me.js": "./node_modules/moment/locale/me.js",
+                "./mi": "./node_modules/moment/locale/mi.js",
+                "./mi.js": "./node_modules/moment/locale/mi.js",
+                "./mk": "./node_modules/moment/locale/mk.js",
+                "./mk.js": "./node_modules/moment/locale/mk.js",
+                "./ml": "./node_modules/moment/locale/ml.js",
+                "./ml.js": "./node_modules/moment/locale/ml.js",
+                "./mn": "./node_modules/moment/locale/mn.js",
+                "./mn.js": "./node_modules/moment/locale/mn.js",
+                "./mr": "./node_modules/moment/locale/mr.js",
+                "./mr.js": "./node_modules/moment/locale/mr.js",
+                "./ms": "./node_modules/moment/locale/ms.js",
+                "./ms-my": "./node_modules/moment/locale/ms-my.js",
+                "./ms-my.js": "./node_modules/moment/locale/ms-my.js",
+                "./ms.js": "./node_modules/moment/locale/ms.js",
+                "./mt": "./node_modules/moment/locale/mt.js",
+                "./mt.js": "./node_modules/moment/locale/mt.js",
+                "./my": "./node_modules/moment/locale/my.js",
+                "./my.js": "./node_modules/moment/locale/my.js",
+                "./nb": "./node_modules/moment/locale/nb.js",
+                "./nb.js": "./node_modules/moment/locale/nb.js",
+                "./ne": "./node_modules/moment/locale/ne.js",
+                "./ne.js": "./node_modules/moment/locale/ne.js",
+                "./nl": "./node_modules/moment/locale/nl.js",
+                "./nl-be": "./node_modules/moment/locale/nl-be.js",
+                "./nl-be.js": "./node_modules/moment/locale/nl-be.js",
+                "./nl.js": "./node_modules/moment/locale/nl.js",
+                "./nn": "./node_modules/moment/locale/nn.js",
+                "./nn.js": "./node_modules/moment/locale/nn.js",
+                "./pa-in": "./node_modules/moment/locale/pa-in.js",
+                "./pa-in.js": "./node_modules/moment/locale/pa-in.js",
+                "./pl": "./node_modules/moment/locale/pl.js",
+                "./pl.js": "./node_modules/moment/locale/pl.js",
+                "./pt": "./node_modules/moment/locale/pt.js",
+                "./pt-br": "./node_modules/moment/locale/pt-br.js",
+                "./pt-br.js": "./node_modules/moment/locale/pt-br.js",
+                "./pt.js": "./node_modules/moment/locale/pt.js",
+                "./ro": "./node_modules/moment/locale/ro.js",
+                "./ro.js": "./node_modules/moment/locale/ro.js",
+                "./ru": "./node_modules/moment/locale/ru.js",
+                "./ru.js": "./node_modules/moment/locale/ru.js",
+                "./sd": "./node_modules/moment/locale/sd.js",
+                "./sd.js": "./node_modules/moment/locale/sd.js",
+                "./se": "./node_modules/moment/locale/se.js",
+                "./se.js": "./node_modules/moment/locale/se.js",
+                "./si": "./node_modules/moment/locale/si.js",
+                "./si.js": "./node_modules/moment/locale/si.js",
+                "./sk": "./node_modules/moment/locale/sk.js",
+                "./sk.js": "./node_modules/moment/locale/sk.js",
+                "./sl": "./node_modules/moment/locale/sl.js",
+                "./sl.js": "./node_modules/moment/locale/sl.js",
+                "./sq": "./node_modules/moment/locale/sq.js",
+                "./sq.js": "./node_modules/moment/locale/sq.js",
+                "./sr": "./node_modules/moment/locale/sr.js",
+                "./sr-cyrl": "./node_modules/moment/locale/sr-cyrl.js",
+                "./sr-cyrl.js": "./node_modules/moment/locale/sr-cyrl.js",
+                "./sr.js": "./node_modules/moment/locale/sr.js",
+                "./ss": "./node_modules/moment/locale/ss.js",
+                "./ss.js": "./node_modules/moment/locale/ss.js",
+                "./sv": "./node_modules/moment/locale/sv.js",
+                "./sv.js": "./node_modules/moment/locale/sv.js",
+                "./sw": "./node_modules/moment/locale/sw.js",
+                "./sw.js": "./node_modules/moment/locale/sw.js",
+                "./ta": "./node_modules/moment/locale/ta.js",
+                "./ta.js": "./node_modules/moment/locale/ta.js",
+                "./te": "./node_modules/moment/locale/te.js",
+                "./te.js": "./node_modules/moment/locale/te.js",
+                "./tet": "./node_modules/moment/locale/tet.js",
+                "./tet.js": "./node_modules/moment/locale/tet.js",
+                "./tg": "./node_modules/moment/locale/tg.js",
+                "./tg.js": "./node_modules/moment/locale/tg.js",
+                "./th": "./node_modules/moment/locale/th.js",
+                "./th.js": "./node_modules/moment/locale/th.js",
+                "./tl-ph": "./node_modules/moment/locale/tl-ph.js",
+                "./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
+                "./tlh": "./node_modules/moment/locale/tlh.js",
+                "./tlh.js": "./node_modules/moment/locale/tlh.js",
+                "./tr": "./node_modules/moment/locale/tr.js",
+                "./tr.js": "./node_modules/moment/locale/tr.js",
+                "./tzl": "./node_modules/moment/locale/tzl.js",
+                "./tzl.js": "./node_modules/moment/locale/tzl.js",
+                "./tzm": "./node_modules/moment/locale/tzm.js",
+                "./tzm-latn": "./node_modules/moment/locale/tzm-latn.js",
+                "./tzm-latn.js": "./node_modules/moment/locale/tzm-latn.js",
+                "./tzm.js": "./node_modules/moment/locale/tzm.js",
+                "./ug-cn": "./node_modules/moment/locale/ug-cn.js",
+                "./ug-cn.js": "./node_modules/moment/locale/ug-cn.js",
+                "./uk": "./node_modules/moment/locale/uk.js",
+                "./uk.js": "./node_modules/moment/locale/uk.js",
+                "./ur": "./node_modules/moment/locale/ur.js",
+                "./ur.js": "./node_modules/moment/locale/ur.js",
+                "./uz": "./node_modules/moment/locale/uz.js",
+                "./uz-latn": "./node_modules/moment/locale/uz-latn.js",
+                "./uz-latn.js": "./node_modules/moment/locale/uz-latn.js",
+                "./uz.js": "./node_modules/moment/locale/uz.js",
+                "./vi": "./node_modules/moment/locale/vi.js",
+                "./vi.js": "./node_modules/moment/locale/vi.js",
+                "./x-pseudo": "./node_modules/moment/locale/x-pseudo.js",
+                "./x-pseudo.js": "./node_modules/moment/locale/x-pseudo.js",
+                "./yo": "./node_modules/moment/locale/yo.js",
+                "./yo.js": "./node_modules/moment/locale/yo.js",
+                "./zh-cn": "./node_modules/moment/locale/zh-cn.js",
+                "./zh-cn.js": "./node_modules/moment/locale/zh-cn.js",
+                "./zh-hk": "./node_modules/moment/locale/zh-hk.js",
+                "./zh-hk.js": "./node_modules/moment/locale/zh-hk.js",
+                "./zh-tw": "./node_modules/moment/locale/zh-tw.js",
+                "./zh-tw.js": "./node_modules/moment/locale/zh-tw.js"
+            };
+            function webpackContext(req) {
+                var id = webpackContextResolve(req);
+                return __webpack_require__(id);
+            }
+            function webpackContextResolve(req) {
+                if (!__webpack_require__.o(map, req)) {
+                    var e = new Error("Cannot find module '" + req + "'");
+                    e.code = 'MODULE_NOT_FOUND';
+                    throw e;
+                }
+                return map[req];
+            }
+            webpackContext.keys = function webpackContextKeys() {
+                return Object.keys(map);
+            };
+            webpackContext.resolve = webpackContextResolve;
+            module.exports = webpackContext;
+            webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
+            /***/ 
+        }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html": 
         /*!**************************************************************************!*\
           !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
@@ -28,7 +310,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<!-- Toolbar -->\n\n\n<!-- \n<div class=\"toolbar\" role=\"banner\">\n  <button type=\"button\" mat-button (click)=\"drawer.toggle()\">☰</button>\n  <h2>InfoVis Project</h2>\n    <div class=\"spacer\"></div>\n</div>\n\n<br> -->\n\n\n\n<!-- Creates a layout with a left and right sidenav and implicit content. -->\n<mat-drawer-container fullscreen>\n\n  <!-- Tool bar -->\n  <mat-toolbar class=\"hk-toolbar\">  \n    <mat-toolbar-row>\n      <button type=\"button\" mat-button (click)=\"drawer.toggle()\">☰</button>\n      <span>InfoVis term project</span>\n    </mat-toolbar-row>\n  </mat-toolbar>\n\n  <mat-drawer #drawer class=\"hk-sidenav\" mode=\"over\" opened=false>\n    <!-- Title -->\n    <mat-card-title>Options</mat-card-title>\n  \n    <!-- Data Choose -->\n    <mat-expansion-panel class=\"hk-expansion\">\n      <mat-expansion-panel-header>\n        <mat-panel-title>Data</mat-panel-title>\n        <mat-panel-description>{{chosenData}}</mat-panel-description>\n      </mat-expansion-panel-header>\n      <mat-radio-group\n      aria-labelledby=\"hk-radio-group-label\"\n      class=\"hk-radio-group\"\n      [(ngModel)]=\"chosenData\">\n        <mat-radio-button class=\"hk-radio-button\" *ngFor=\"let x of dta\" [value]=\"x.name\">\n          {{x.name}}\n        </mat-radio-button>\n      </mat-radio-group>\n    </mat-expansion-panel>\n  \n    <!-- Projection Method -->\n    <mat-expansion-panel class=\"hk-expansion\">\n      <mat-expansion-panel-header>\n        <mat-panel-title>Projection</mat-panel-title>\n        <mat-panel-description>{{chosenProjection}}</mat-panel-description>\n      </mat-expansion-panel-header>\n      <mat-radio-group\n      aria-labelledby=\"hk-radio-group-label\"\n      class=\"hk-radio-group\"\n      [(ngModel)]=\"chosenProjection\">\n        <mat-radio-button class=\"hk-radio-button\" *ngFor=\"let x of projection\" [value]=\"x.name\">\n          {{x.name}}\n        </mat-radio-button>\n      </mat-radio-group>\n    </mat-expansion-panel>\n  \n    <!-- Clustering method -->\n    <mat-expansion-panel class=\"hk-expansion\">\n      <mat-expansion-panel-header>\n        <mat-panel-title>Clustering</mat-panel-title>\n        <mat-panel-description>{{chosenCluster}}</mat-panel-description>\n      </mat-expansion-panel-header>\n      <mat-radio-group\n      aria-labelledby=\"hk-radio-group-label\"\n      class=\"hk-radio-group\"\n      [(ngModel)]=\"chosenCluster\">\n        <mat-radio-button class=\"hk-radio-button\" *ngFor=\"let x of cluster\" [value]=\"x.name\">\n          {{x.name}}\n        </mat-radio-button>\n    </mat-radio-group>\n    </mat-expansion-panel>\n  \n    <button mat-raised-button color=\"primary\">Click to change!</button>\n  </mat-drawer>\n  \n  <!-- <div class=\"hk-projection-container\">\n    <mat-card class=\"hk-projection\">\n      <mat-card-title>projection</mat-card-title>\n    </mat-card>\n    <div class=\"hk-projection-container2\">\n      <mat-card class=\"hk-projection2\">\n        <mat-card-title>heatmap</mat-card-title>\n      </mat-card>\n      <mat-card class=\"hk-projection3\">\n        <mat-card-title>Z-Glyph</mat-card-title>\n      </mat-card>\n    </div>\n  </div> -->\n\n  <mat-grid-list cols=\"10\" rowHeight=\"fit\" style=\"height: 100%\">\n    <mat-grid-tile [colspan] = \"3\" [rowspan] = \"1\">\n      <app-hyungkwon></app-hyungkwon>\n    </mat-grid-tile>\n    <mat-grid-tile [colspan] = \"7\" [rowspan] = \"3\">\n      <!-- <mat-grid-tile-header>seijun2</mat-grid-tile-header> -->\n      <!-- <div id=\"my_dataviz\"></div> -->\n      <app-seijun></app-seijun>\n    </mat-grid-tile>\n    <mat-grid-tile [colspan] = \"3\" [rowspan] = \"2\">\n      <app-dongmoon></app-dongmoon>\n    </mat-grid-tile>\n    <mat-grid-tile [colspan] = \"3\" [rowspan] = \"3\">\n      <!-- correlated vars -->\n    </mat-grid-tile>\n    <mat-grid-tile [colspan] = \"7\" [rowspan] = \"3\">\n      <!-- Z-Glyphs\n      <div (mouseover)=\"changeText=true\" (mouseout)=\"changeText=false\">\n        <span [hidden]=\"changeText\">HHHHHHHHHHide</span>\n        <span [hidden]=\"!changeText\">SSSSSSSSSSSShow</span>\n      </div> -->\n    </mat-grid-tile>\n  </mat-grid-list>\n\n\n\n   <!-- footer -->\n   <footer>\n      <mat-toolbar class=\"hk-footer\">  \n        <div>\n          <span>footer</span>\n        </div>\n      </mat-toolbar>\n  </footer>\n\n</mat-drawer-container>");
+            /* harmony default export */ __webpack_exports__["default"] = ("<!-- Toolbar -->\n\n\n<!-- \n<div class=\"toolbar\" role=\"banner\">\n  <button type=\"button\" mat-button (click)=\"drawer.toggle()\">☰</button>\n  <h2>InfoVis Project</h2>\n    <div class=\"spacer\"></div>\n</div>\n\n<br> -->\n\n\n\n<!-- Creates a layout with a left and right sidenav and implicit content. -->\n<mat-drawer-container fullscreen>\n\n  <!-- Tool bar -->\n  <mat-toolbar class=\"hk-toolbar\">  \n    <mat-toolbar-row>\n      <button type=\"button\" mat-button (click)=\"drawer.toggle()\">☰</button>\n      <span>InfoVis term project</span>\n    </mat-toolbar-row>\n  </mat-toolbar>\n\n  <mat-drawer #drawer class=\"hk-sidenav\" mode=\"over\" opened=false>\n    <!-- Title -->\n    <mat-card-title>Options</mat-card-title>\n  \n    <!-- Data Choose -->\n    <mat-expansion-panel class=\"hk-expansion\">\n      <mat-expansion-panel-header>\n        <mat-panel-title>Data</mat-panel-title>\n        <mat-panel-description>{{chosenData}}</mat-panel-description>\n      </mat-expansion-panel-header>\n      <mat-radio-group\n      aria-labelledby=\"hk-radio-group-label\"\n      class=\"hk-radio-group\"\n      [(ngModel)]=\"chosenData\">\n        <mat-radio-button class=\"hk-radio-button\" *ngFor=\"let x of dta\" [value]=\"x.name\">\n          {{x.name}}\n        </mat-radio-button>\n      </mat-radio-group>\n    </mat-expansion-panel>\n  \n    <!-- Projection Method -->\n    <mat-expansion-panel class=\"hk-expansion\">\n      <mat-expansion-panel-header>\n        <mat-panel-title>Projection</mat-panel-title>\n        <mat-panel-description>{{chosenProjection}}</mat-panel-description>\n      </mat-expansion-panel-header>\n      <mat-radio-group\n      aria-labelledby=\"hk-radio-group-label\"\n      class=\"hk-radio-group\"\n      [(ngModel)]=\"chosenProjection\">\n        <mat-radio-button class=\"hk-radio-button\" *ngFor=\"let x of projection\" [value]=\"x.name\">\n          {{x.name}}\n        </mat-radio-button>\n      </mat-radio-group>\n    </mat-expansion-panel>\n  \n    <!-- Clustering method -->\n    <mat-expansion-panel class=\"hk-expansion\">\n      <mat-expansion-panel-header>\n        <mat-panel-title>Clustering</mat-panel-title>\n        <mat-panel-description>{{chosenCluster}}</mat-panel-description>\n      </mat-expansion-panel-header>\n      <mat-radio-group\n      aria-labelledby=\"hk-radio-group-label\"\n      class=\"hk-radio-group\"\n      [(ngModel)]=\"chosenCluster\">\n        <mat-radio-button class=\"hk-radio-button\" *ngFor=\"let x of cluster\" [value]=\"x.name\">\n          {{x.name}}\n        </mat-radio-button>\n    </mat-radio-group>\n    </mat-expansion-panel>\n  \n    <button mat-raised-button color=\"primary\">Click to change!</button>\n  </mat-drawer>\n  \n  <!-- <div class=\"hk-projection-container\">\n    <mat-card class=\"hk-projection\">\n      <mat-card-title>projection</mat-card-title>\n    </mat-card>\n    <div class=\"hk-projection-container2\">\n      <mat-card class=\"hk-projection2\">\n        <mat-card-title>heatmap</mat-card-title>\n      </mat-card>\n      <mat-card class=\"hk-projection3\">\n        <mat-card-title>Z-Glyph</mat-card-title>\n      </mat-card>\n    </div>\n  </div> -->\n\n  <mat-grid-list cols=\"10\" rowHeight=\"fit\" style=\"height: 100%\">\n    <mat-grid-tile [colspan] = \"3\" [rowspan] = \"1\">\n      <app-hyungkwon></app-hyungkwon>\n    </mat-grid-tile>\n    <mat-grid-tile [colspan] = \"7\" [rowspan] = \"3\">\n      <!-- <mat-grid-tile-header>seijun2</mat-grid-tile-header> -->\n      <!-- <div id=\"my_dataviz\"></div> -->\n      <app-seijun></app-seijun>\n    </mat-grid-tile>\n    <mat-grid-tile [colspan] = \"3\" [rowspan] = \"2\">\n      <app-dongmoon></app-dongmoon>\n    </mat-grid-tile>\n    <mat-grid-tile [colspan] = \"3\" [rowspan] = \"3\">\n      <app-seijun2></app-seijun2>\n    </mat-grid-tile>\n    <mat-grid-tile [colspan] = \"7\" [rowspan] = \"3\">\n      <!-- Z-Glyphs\n      <div (mouseover)=\"changeText=true\" (mouseout)=\"changeText=false\">\n        <span [hidden]=\"changeText\">HHHHHHHHHHide</span>\n        <span [hidden]=\"!changeText\">SSSSSSSSSSSShow</span>\n      </div> -->\n    </mat-grid-tile>\n  </mat-grid-list>\n\n\n\n   <!-- footer -->\n   <footer>\n      <mat-toolbar class=\"hk-footer\">  \n        <div>\n          <span>footer</span>\n        </div>\n      </mat-toolbar>\n  </footer>\n\n</mat-drawer-container>");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/dongmoon/dongmoon.component.html": 
@@ -50,7 +332,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("<p>hyungkwon works!</p>\n");
+            /* harmony default export */ __webpack_exports__["default"] = ("<!-- <div id=\"viz_example\">ddzxczxc</div> -->\n<div>\n    <div style=\"display: block\">\n    <canvas baseChart\n        [datasets]=\"barChartData\"\n        [labels]=\"barChartLabels\"\n        [options]=\"barChartOptions\"\n        [plugins]=\"barChartPlugins\"\n        [legend]=\"barChartLegend\"\n        [chartType]=\"barChartType\">\n    </canvas>\n    </div>\n    <button mat-button mat-raised-button color=\"primary\" (click)=\"randomize()\">Update</button>\n</div>");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/seijun/seijun.component.html": 
@@ -568,6 +850,7 @@
             /* harmony import */ var _seijun_seijun_component__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./seijun/seijun.component */ "./src/app/seijun/seijun.component.ts");
             /* harmony import */ var _dongmoon_dongmoon_component__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ./dongmoon/dongmoon.component */ "./src/app/dongmoon/dongmoon.component.ts");
             /* harmony import */ var _seijun2_seijun2_component__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ./seijun2/seijun2.component */ "./src/app/seijun2/seijun2.component.ts");
+            /* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ng2-charts */ "./node_modules/ng2-charts/fesm2015/ng2-charts.js");
             var AppModule = /** @class */ (function () {
                 function AppModule() {
                 }
@@ -588,6 +871,7 @@
                         _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"],
                         _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ReactiveFormsModule"],
                         _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"],
+                        ng2_charts__WEBPACK_IMPORTED_MODULE_52__["ChartsModule"],
                         _angular_cdk_a11y__WEBPACK_IMPORTED_MODULE_7__["A11yModule"],
                         _angular_cdk_stepper__WEBPACK_IMPORTED_MODULE_11__["CdkStepperModule"],
                         _angular_cdk_table__WEBPACK_IMPORTED_MODULE_12__["CdkTableModule"],
@@ -697,10 +981,53 @@
             /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HyungkwonComponent", function () { return HyungkwonComponent; });
             /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
             /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+            /* harmony import */ var chartjs_plugin_datalabels__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! chartjs-plugin-datalabels */ "./node_modules/chartjs-plugin-datalabels/dist/chartjs-plugin-datalabels.js");
+            /* harmony import */ var chartjs_plugin_datalabels__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/ __webpack_require__.n(chartjs_plugin_datalabels__WEBPACK_IMPORTED_MODULE_2__);
             var HyungkwonComponent = /** @class */ (function () {
                 function HyungkwonComponent() {
+                    this.barChartOptions = {
+                        responsive: true,
+                        // We use these empty structures as placeholders for dynamic theming.
+                        scales: { xAxes: [{}], yAxes: [{}] },
+                        plugins: {
+                            datalabels: {
+                                anchor: 'end',
+                                align: 'end',
+                            }
+                        }
+                    };
+                    this.barChartLabels = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
+                    this.barChartType = 'bar';
+                    this.barChartLegend = true;
+                    this.barChartPlugins = [chartjs_plugin_datalabels__WEBPACK_IMPORTED_MODULE_2__];
+                    this.barChartData = [
+                        { data: [65, 59, 80, 81, 56, 55, 40], label: 'Series A' },
+                        { data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B' }
+                    ];
                 }
                 HyungkwonComponent.prototype.ngOnInit = function () {
+                };
+                // events
+                HyungkwonComponent.prototype.chartClicked = function (_a) {
+                    var event = _a.event, active = _a.active;
+                    console.log(event, active);
+                };
+                HyungkwonComponent.prototype.chartHovered = function (_a) {
+                    var event = _a.event, active = _a.active;
+                    console.log(event, active);
+                };
+                HyungkwonComponent.prototype.randomize = function () {
+                    // Only Change 3 values
+                    var data = [
+                        Math.round(Math.random() * 100),
+                        59,
+                        80,
+                        (Math.random() * 100),
+                        56,
+                        (Math.random() * 100),
+                        40
+                    ];
+                    this.barChartData[0].data = data;
                 };
                 return HyungkwonComponent;
             }());
@@ -711,6 +1038,50 @@
                     styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./hyungkwon.component.css */ "./src/app/hyungkwon/hyungkwon.component.css")).default]
                 })
             ], HyungkwonComponent);
+            // constructor() { }
+            // ngOnInit() {
+            //   this.createChart();
+            // }
+            // public createChart(): any {
+            //   const my_iris: any = iris;
+            //   // set the dimensions and margins of the graph
+            //   const margin: any = {top: 3, right: 3, bottom: 3, left: 3},
+            //       width = 460 - margin.left - margin.right,
+            //       height = 400 - margin.top - margin.bottom;
+            //   // append the svg object to the body of the page
+            //   const svg: SA = d3.select("#viz_example")
+            //     .append("svg")
+            //       .attr("width", width + margin.left + margin.right)
+            //       .attr("height", height + margin.top + margin.bottom)
+            //     .append("g")
+            //       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+            //   // Add X axis
+            //   let x: any = d3.scaleLinear()
+            //   .domain([0, 4000])
+            //   .range([ 0, width]);
+            //   svg.append("g")
+            //   .attr("transform", "translate(0," + height + ")")
+            //   .call(d3.axisBottom(x));
+            //   // Add Y axis
+            //   let y: any = d3.scaleLinear()
+            //   .domain([0, 500000])
+            //   .range([ height, 0]);
+            //   svg.append("g")
+            //   .call(d3.axisLeft(y));
+            //   // Add dots
+            //   svg.append('g')
+            //   .selectAll("dot")
+            //   .data(my_iris)
+            //   .enter()
+            //   .append("circle")
+            //   .attr("cx", my_iris => x(my_iris[0]))
+            //   .attr("cy", d => y(my_iris[1]))
+            //   .attr("r", 1.5)
+            //   .style("fill", "#69b3a2")
+            //   // const loc: string = "https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/2_TwoNum.csv";
+            //   //Read the data
+            //   // d3.csv(loc, function(data: any): any {
+            //   // });
             /***/ 
         }),
         /***/ "./src/app/seijun/seijun.component.css": 
