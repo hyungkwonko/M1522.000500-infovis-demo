@@ -357,7 +357,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p>seijun works!</p>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<p>seijun works!</p>\n<ngx-charts-bar-vertical\n  [view]=\"view\"\n  [scheme]=\"colorScheme\"\n  [results]=\"single\"\n  [gradient]=\"gradient\"\n  [xAxis]=\"showXAxis\"\n  [yAxis]=\"showYAxis\"\n  [legend]=\"showLegend\"\n  [showXAxisLabel]=\"showXAxisLabel\"\n  [showYAxisLabel]=\"showYAxisLabel\"\n  [xAxisLabel]=\"xAxisLabel\"\n  [yAxisLabel]=\"yAxisLabel\"\n  (select)=\"onSelect($event)\">\n</ngx-charts-bar-vertical>");
 
 /***/ }),
 
@@ -806,6 +806,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _dongmoon_dongmoon_component__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ./dongmoon/dongmoon.component */ "./src/app/dongmoon/dongmoon.component.ts");
 /* harmony import */ var _seijun2_seijun2_component__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ./seijun2/seijun2.component */ "./src/app/seijun2/seijun2.component.ts");
 /* harmony import */ var ng2_charts__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ng2-charts */ "./node_modules/ng2-charts/fesm2015/ng2-charts.js");
+/* harmony import */ var _swimlane_ngx_charts__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! @swimlane/ngx-charts */ "./node_modules/@swimlane/ngx-charts/release/esm.js");
+
 
 
 
@@ -877,6 +879,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ReactiveFormsModule"],
             _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClientModule"],
             ng2_charts__WEBPACK_IMPORTED_MODULE_52__["ChartsModule"],
+            _swimlane_ngx_charts__WEBPACK_IMPORTED_MODULE_53__["NgxChartsModule"],
             _angular_cdk_a11y__WEBPACK_IMPORTED_MODULE_7__["A11yModule"],
             _angular_cdk_stepper__WEBPACK_IMPORTED_MODULE_11__["CdkStepperModule"],
             _angular_cdk_table__WEBPACK_IMPORTED_MODULE_12__["CdkTableModule"],
@@ -925,6 +928,36 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     })
 ], AppModule);
 
+
+
+/***/ }),
+
+/***/ "./src/app/data/data.ts":
+/*!******************************!*\
+  !*** ./src/app/data/data.ts ***!
+  \******************************/
+/*! exports provided: single */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "single", function() { return single; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+
+const single = [
+    {
+        "name": "Germany",
+        "value": 8940000
+    },
+    {
+        "name": "USA",
+        "value": 5000000
+    },
+    {
+        "name": "France",
+        "value": 7200000
+    }
+];
 
 
 /***/ }),
@@ -1129,11 +1162,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SeijunComponent", function() { return SeijunComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _data_data__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../data/data */ "./src/app/data/data.ts");
+
 
 
 let SeijunComponent = class SeijunComponent {
-    constructor() { }
-    ngOnInit() {
+    constructor() {
+        this.view = [700, 400];
+        // options
+        this.showXAxis = true;
+        this.showYAxis = true;
+        this.gradient = false;
+        this.showLegend = true;
+        this.showXAxisLabel = true;
+        this.xAxisLabel = 'Country';
+        this.showYAxisLabel = true;
+        this.yAxisLabel = 'Population';
+        this.colorScheme = {
+            domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA']
+        };
+        Object.assign(this, { single: _data_data__WEBPACK_IMPORTED_MODULE_2__["single"] });
+    }
+    onSelect(event) {
+        console.log(event);
     }
 };
 SeijunComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
